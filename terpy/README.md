@@ -23,14 +23,14 @@ python cosmos_discord_faucet.py
 
 ### Service
 
-1. Modify the `cosmos-discord-faucet.service` file as appropriate.
-2. Make a copy of `cosmos-discord-faucet.service` or create a link to it in `/etc/systemd/system/`.
+1. Modify the `terpy.service` file as appropriate.
+2. Make a copy of `terpy.service` or create a link to it in `/etc/systemd/system/`.
 3. Enable and start the service:
 ```
 systemctl daemon-reload
-systemctl enable cosmos-discord-faucet.service
-systemctl start cosmos-discord-faucet.service
-systemctl status cosmos-discord-faucet.service
+systemctl enable terpy.service
+systemctl start terpy.service
+systemctl status terpy.service
 ```
 
 
