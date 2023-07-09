@@ -1,0 +1,27 @@
+# Cosmos Discord Faucet configuration
+
+verbose        = "yes"
+
+[cosmos]
+prefix         = "terp"
+denomination   = "upersyx"
+feedenom       = "upersyx"
+
+[testnets]
+    [testnets.theta]
+    node_url = "http://127.0.0.1:26657"
+    chain_id = "YOUR-CHAIN-ID"
+    faucet_address = "ADDRESS OF FAUCET (terp1....)"
+    block_explorer_tx = "YOUR TX BLOCK EXPLORER (https://......io/tx/tx)"
+    daily_cap = "400000000" 
+    amount_to_send = "10000000"
+    tx_fees = "2500"
+    
+[discord]
+bot_token = "YOUR DISCORD BOT TOKEN"
+# comma separated list of channels
+channels_to_listen = "CHANEL OF DISCORD WHERE BOT REACTS"
+# how often user can request tokens from faucet (seconds)
+# 10800 = 3  hours
+# 86400 = 24 hours
+request_timeout    = "604800"

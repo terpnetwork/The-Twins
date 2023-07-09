@@ -1,0 +1,13 @@
+[Unit]
+Description="Discord testnet faucet bot"
+
+[Service]
+User={USER}
+Environment="PATH=/usr/local/go/bin:{USER_HOME}/go/bin:$PATH"
+WorkingDirectory={USER_HOME}/cosmos-discord-faucet
+ExecStart=python3 cosmos_discord_faucet.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

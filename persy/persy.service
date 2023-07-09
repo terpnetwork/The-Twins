@@ -1,0 +1,13 @@
+[Unit]
+Description="Discord testnet faucet bot"
+
+[Service]
+User=root
+Environment="PATH=/usr/local/go/bin:/root/go/bin:$PATH"
+WorkingDirectory=/root/persy
+ExecStart=/root/persy/.env/bin/python cosmos_discord_faucet.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Unit]
+Description="Analytics logger"
+
+[Service]
+User={USER}
+WorkingDirectory={USER_HOME}/cosmos-discord-faucet
+ExecStart=python3 cosmos_faucet_analytics.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
