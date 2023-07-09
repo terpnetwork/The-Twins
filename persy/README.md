@@ -59,9 +59,3 @@ systemctl enable cosmos-faucet-analytics.service
 systemctl start cosmos-faucet-analytics.service
 systemctl status cosmos-faucet-analytics.service
 ```
-
-## Acknowledgements
-
-This repo is based on [cosmos-discord-faucet](https://github.com/c29r3/cosmos-discord-faucet):
-- The cosmospy library calls have been replaced by calls to `gaiad` to avoid deprecated endpoints and messages.
-- The address prefix has been switched to `cosmos`.
