@@ -5,7 +5,7 @@ Description="Discord testnet faucet bot"
 User=root
 Environment="PATH=/usr/local/go/bin:/root/go/bin:$PATH"
 WorkingDirectory=/root/The-Twins/terpy
-ExecStart=/root/The-Twins/terpy/.env/bin/python terpy.py
+ExecStart=/root/The-Twins/terpy/.env/bin/python cosmos_discord_faucet.py
 Restart=always
 RestartSec=5
 
