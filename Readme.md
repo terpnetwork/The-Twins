@@ -1,5 +1,13 @@
-# THE TWINS
+<div align="center">
+
+![The Twins](./logo.png)
+
+<h1>The Twins</h1>
 A custom Cosmos Discord Bot's for dispensing testnet tokens.
+
+[![https://discord.gg/CmjYVSr6GW](https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat)]([https://discord.gg/CmjYVSr6GW](https://discord.gg/jAaxRB5b))
+
+</div>
 
 ## Features
 
